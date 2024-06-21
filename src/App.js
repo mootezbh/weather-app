@@ -129,7 +129,7 @@ const App = () => {
       >
         <div className="h-full relative flex items-center justify-between p-2">
           <input
-            className="flex-1 bg-transparent text-white outline-none placeholder:text-white text-[15px] font-light ml-6 h-full"
+            className="w-[80%] bg-transparent text-white outline-none placeholder:text-white text-[15px] font-light ml-2 lg:ml-6 h-full"
             type="text"
             onChange={(e) => handleInput(e)}
             placeholder="Search by city or country"

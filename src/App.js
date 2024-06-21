@@ -135,7 +135,7 @@ const App = () => {
             placeholder="Search by city or country"
           />
           <button
-            className="bg-[#1ab8ed] hover:bg-[#15abdd] w-20 h-12 rounded-full flex justify-center items-center transition p-2"
+            className="bg-[#1ab8ed] hover:bg-[#15abdd] min-w-20 h-12 rounded-full flex justify-center items-center transition"
             onClick={(e) => handleSubmit(e)}
           >
             <IoMdSearch className="text-2xl text-white" />
